@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void)
+{
+float nota = 4;
+printf("digite a nota: ");
+scanf("%f", &nota);
+printf("%f\n", nota);
+if(nota >= 6)
+printf("Parabens vc passou");
+if(nota < 6)
+printf("infelizmente vc não passou");
+
+return 0;
