@@ -8,8 +8,8 @@ int main(void) {
 
     printf("Adivinhe o número entre 0 e 100\n\n");
 
-    srand(time(NULL)); // Inicializa o gerador de números aleatórios
-    numero_secreto = rand() % 101; // Número aleatório entre 0 e 100
+    srand(time(NULL)); 
+    numero_secreto = rand() % 101; 
 
     do {
         printf("Digite seu palpite: ");
