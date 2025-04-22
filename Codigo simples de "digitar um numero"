@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+
+int i;    
+    printf("digite um numero:\n");
+    scanf("%d" ,&i );
+    
+    if(i < 20 ){
+    printf("Parabens voce acertou");
+    }else if( i > 20)
+    printf("infelizmente voce errou, tente novamente");
+
+    return 0;
+}
