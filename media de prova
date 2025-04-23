@@ -13,7 +13,7 @@ int main() {
     
     if(media >= 6)
     printf("Parabens voce passou");
-     else{printf("infelizmente voce não passou. Por favor tentar novamente");}    
+     else{printf("infelizmente voce não passou");}    
    return 0;
 
 }
