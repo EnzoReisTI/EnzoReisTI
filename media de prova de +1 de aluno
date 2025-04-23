@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+nt main(void) {
+    float nota1, nota2, nota3, media;
+    int contalunos;
+    for (contalunos=1;contalunos<=5;contalunos++)
+    {
+    printf("digite a nota:");
+    scanf("%f", &nota1);
+    printf("digite a nota:");
+    scanf("%f", &nota2);
+    printf("digite a nota:");
+    scanf("%f", &nota3);
+    media = (nota1+nota2+nota2)/3;
+     if(media>=6)
+     printf("parabens vc passou\n");
+     else{printf("infelizmente voce reprovou\n");}
+    }
+    
+   return 0;
+
+}
