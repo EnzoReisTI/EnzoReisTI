@@ -1,22 +1,19 @@
 #include <stdio.h>
-int main(){
+
+int main() {
+    float teste, prova, simu;
+    printf("digite a nota do teste:\n");
+    scanf("%f", &teste);
+    printf("digite a nota da prova:\n");
+    scanf("%f", &prova);
+    printf("digite a nota do simu:\n");
+    scanf("%f", &simu);
     
- float teste;
- float prova;
- float simu;
- int press;
- 
- printf("digite a nota do teste:\n");
- scanf("%f", &teste);
- 
- printf("digite a nota da prova:\n");
- scanf("%f", &prova);
- 
- 
- printf("digite a presença:\n");
- scanf("%d", &press);
- 
- float media = (teste + prova );
- 
-if(press >= 75 && (teste >= 4) && (prova >= 6)){printf("passou");}
- else{printf("infelizmente voce reprovou");}
+    float media = (teste + prova + simu)/3;
+    
+    if(media >= 6)
+    printf("Parabens voce passou");
+     else{printf("infelizmente voce não passou. Por favor tentar novamente");}    
+   return 0;
+
+}
